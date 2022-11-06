@@ -13,7 +13,6 @@ export default function Home() {
       <Head>
         <title>Lista de Canais</title>
         <meta name='description' content='Lista com os canais da Tv' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className={styles.main}>
