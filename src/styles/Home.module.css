@@ -11,9 +11,23 @@
 
 .main ul {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   flex-wrap: wrap;
   list-style: none;
+}
+
+.main ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.5rem;
+}
+
+.linkDot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
 }
 
 .channelTitle {

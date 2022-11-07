@@ -10,6 +10,7 @@ import TvSbt from '../../public/tv-sbt.png';
 import TvBand from '../../public/tv-band.png';
 import TvRecord from '../../public/tv-record.png';
 import TvDiscovery from '../../public/tv-discovery.png';
+import CorePlayer from '../../public/coreplayer.png';
 import { Modal } from '../components/modal';
 
 const channels = [
@@ -60,6 +61,12 @@ const channels = [
     name: 'ID Full HD',
     logo: TvDiscovery,
     link: 'http://coreplayer.me/canal.php?sessao=chYMU5IjF2wXjt1DAR2zQ1njnjBaWQ5iWlPog1gQ1yx1qQ7E4wslX8wqXD3ihn82V3zcqQ2D8kvocCUlB73FR8jhrqhpN0ysxqtUfkrqccQ76yVTpRLUhXincuaxofndmkuNm5orR0qOD339jnlakp1XrobO7erzIc7stfH3001zhc0jhKYi13Pjo3M4YsRkzk1ZI1IPWQwgGXRAITJyFIKu5qSvH1ml77X7kNEoFf8xmK0um1TulN1D9GHSShCz&stream=175&streamtipo=live&canal=Investigacao+Discovery+FHD&img=http%3A%2F%2Fp6.vc%2FeK7&catg=9',
+  },
+  {
+    number: 0,
+    name: 'Ver todos',
+    logo: CorePlayer,
+    link: 'http://coreplayer.me/painel.php?sessao=VtOkFVGir0VEz02A7D50ZR6vyrS0tFxVPmXS7aVi81lY6Fj7m80hu4ha3BePu74s58WtVbWW2sVTEHyNosiVg8D0roIZeJfC93aclNagAUIt7H9SmioVGDxcU060gUFGBzUXNz5zF0jFaI5CvRt5eiuxyVnBdWtFpbI5kuuD2KOk1F0h2fCfukIfdqj9XhzKcBw5BWc2is2G2448dqVDy58SA6lzRYl2iq20gSsRbKQzd75Mdmd33Zx6YW6ZI8qB',
   },
 ];
 
