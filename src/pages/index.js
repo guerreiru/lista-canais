@@ -10,6 +10,7 @@ import TvSbt from '../../public/tv-sbt.png';
 import TvBand from '../../public/tv-band.png';
 import TvRecord from '../../public/tv-record.png';
 import TvDiscovery from '../../public/tv-discovery.png';
+import { Modal } from '../components/modal';
 
 const channels = [
   {
@@ -58,6 +59,7 @@ const channels = [
 
 export default function Home() {
   const [channelNumber, setChannelNumber] = useState('');
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const getChannel = useCallback(() => {
     const _channel = channels.find(
@@ -65,8 +67,13 @@ export default function Home() {
     );
 
     if (_channel) {
+      setChannelNumber('');
+      setModalIsOpen(false);
       window.open(_channel.link, '_self');
       return;
+    } else {
+      setChannelNumber('');
+      setModalIsOpen(true);
     }
   }, [channelNumber]);
 
@@ -101,7 +108,13 @@ export default function Home() {
         <meta name='description' content='Lista com os canais da Tv' />
       </Head>
 
+      {modalIsOpen && <Modal setIsOpen={setModalIsOpen} />}
+
       <main className={styles.main}>
+        {channelNumber && (
+          <h1 className={styles.channelTitle}>Ir para canal {channelNumber}</h1>
+        )}
+
         <ul>
           {channels.map((canal) => (
             <li key={canal.name}>

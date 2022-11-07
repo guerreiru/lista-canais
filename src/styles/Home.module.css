@@ -16,6 +16,12 @@
   list-style: none;
 }
 
+.channelTitle {
+  position: absolute;
+  top: 0;
+  font-size: 1.5rem;
+}
+
 .card {
   border: 1px solid white;
   padding: 16px;
