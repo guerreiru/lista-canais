@@ -101,7 +101,6 @@ export default function Home() {
         <meta name='description' content='Lista com os canais da Tv' />
       </Head>
 
-      {channelNumber}
       <main className={styles.main}>
         <ul>
           {channels.map((canal) => (
