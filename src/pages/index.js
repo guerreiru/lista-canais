@@ -53,7 +53,13 @@ const channels = [
     number: 7,
     name: 'Dicovery ID',
     logo: TvDiscovery,
-    link: 'http://google.com/',
+    link: 'http://coreplayer.me/canal.php?sessao=p05oKS2j18rVJDrPVlbc6AJFTuLEgNzpL5jcv0Vy6CdmZtQU8AylPBCTqrTMsuZ1qsbdE74HAR3aL3XmgwxizIb5c31WKgykFAVlBqopQYbgYYhcL2s9Gg4JI5i66N25yW8N6aLkLbWDlpTNRJOC6p5LvU4fCZGEugQ3YBb02QJnUm6Seds6MPGnYLh8BNteYR9G8PWL8Okt0J6LxKqDD6qALVo5NomZGwjFOfsqQFIilXfSXWMN3Kk428tya4XI&stream=190&streamtipo=live&canal=Investigacao+Discovery+HD&img=http%3A%2F%2Fp6.vc%2FeK7&catg=9',
+  },
+  {
+    number: 8,
+    name: 'ID Full HD',
+    logo: TvDiscovery,
+    link: 'http://coreplayer.me/canal.php?sessao=chYMU5IjF2wXjt1DAR2zQ1njnjBaWQ5iWlPog1gQ1yx1qQ7E4wslX8wqXD3ihn82V3zcqQ2D8kvocCUlB73FR8jhrqhpN0ysxqtUfkrqccQ76yVTpRLUhXincuaxofndmkuNm5orR0qOD339jnlakp1XrobO7erzIc7stfH3001zhc0jhKYi13Pjo3M4YsRkzk1ZI1IPWQwgGXRAITJyFIKu5qSvH1ml77X7kNEoFf8xmK0um1TulN1D9GHSShCz&stream=175&streamtipo=live&canal=Investigacao+Discovery+FHD&img=http%3A%2F%2Fp6.vc%2FeK7&catg=9',
   },
 ];
 
