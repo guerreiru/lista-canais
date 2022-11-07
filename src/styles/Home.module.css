@@ -11,10 +11,13 @@
 
 .main ul {
   display: flex;
-  flex-direction: column;
   gap: 16px;
   flex-wrap: wrap;
   list-style: none;
+}
+
+.flexColumn {
+  flex-direction: column;
 }
 
 .main ul li {

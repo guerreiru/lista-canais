@@ -54,7 +54,7 @@ export default function CanaisFernando() {
       </Head>
 
       <main className={styles.main}>
-        <ul>
+        <ul className={styles.flexColumn}>
           {channels.map((canal) => (
             <li key={canal.name}>
               <span
